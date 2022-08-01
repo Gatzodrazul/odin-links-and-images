@@ -1,0 +1,39 @@
+<!-- To learn about links I will,
+1. How to create links to pages on other websites on the internet.
+2. How to create links to other pages on your own websites.
+3. The difference between absolute and relative links.
+4. How to display an image on webpage using HTML. -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+<!-- Anchor elements are used to create a link by wrapping it with the <a> tag -->
+<!-- Adding the href(hyperlink reference) creates the destination of the link -->
+    <body>
+        <h1>Homepage</h1>
+        <a href="https://www.theodinproject.com/about">click me</a>
+
+        <a href="./pages/about.html">About</a>
+
+        <img src="images/dog.jpg" alt="Charles the dog">
+
+    </body>
+</html>
+<!-- There are two kinds of links we can create,
+1. absolute links, links that go to other pages on the internet. 
+They use links made up of: protocol://domain/path
+2. relative links, they are links within our own website. 
+These links do not include the domain name because it is assumed 
+they use the same one -->
+
+<!-- pages that are relative must have the proper pathways relative 
+    to the page being linked, ex "./pages/about.html" -->
+<!-- prepending ./ to the code will tell it to start looking for the file/directory
+relative to the current directory -->
+
+<!-- Images can also be linked using the <img> tag, which is, unlike other tags, an empty tag
+ex. <img src="https://www.theodinproject.com/mstile-310x310.png"> using an src attribute -->
